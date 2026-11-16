@@ -18,12 +18,16 @@ if (!location.hash && !/^(ru|uk|be)/i.test(navigator.language || '')) location.h
 <section id="ru">
 <p class="lang">Русский</p>
 <h2>Политика конфиденциальности</h2>
-<p>Действует с 12 ноября 2026 г. Приложение «Smash &amp; Squash» (далее — «игра») выпускает частный разработчик Jossmaniak
-(далее — «мы»). Связь: <a href="mailto:SUPPORT_EMAIL">SUPPORT_EMAIL</a>.</p>
+<p>Действует с 12 ноября 2026 г., обновлено 14 ноября 2026 г. (реклама Google AdMob, в том числе персонализированная). Приложение «Smash &amp; Squash» (далее — «игра») выпускает частный разработчик Jossmaniak
+(далее — «мы»). Связь: <a href="mailto:toozik.pes@gmail.com">toozik.pes@gmail.com</a>.</p>
 
 <h3>Коротко</h3>
 <ul>
-<li>В игре нет учётных записей, рекламы и аналитики. У нас нет серверов, и сама игра ничего нам не отправляет.</li>
+<li>В игре нет учётных записей и аналитики. У нас нет серверов, и сама игра ничего нам не отправляет.</li>
+<li>В игре есть реклама Google AdMob: ролик между уровнями (не чаще чем после каждого третьего уровня и не в первые
+10 минут игры) и видео по вашему желанию — за монеты или чтобы удвоить награду за уровень. Покупка «Без рекламы» убирает
+ролики между уровнями навсегда. Реклама может быть персонализированной; в ЕЭЗ, Великобритании и Швейцарии — только
+с вашего согласия.</li>
 <li>Прогресс, настройки, питомец и ваши скины хранятся только на вашем устройстве.</li>
 <li>Покупки проводит Google Play. Вырезание фигур из фото выполняется на устройстве средствами Google ML Kit.</li>
 </ul>
@@ -40,8 +44,32 @@ if (!location.hash && !/^(ru|uk|be)/i.test(navigator.language || '')) location.h
 (Subject Segmentation) прямо на устройстве; само фото никуда не отправляется. Вырезанные части сохраняются в личной
 папке игры.</p>
 
+<h3>Реклама (Google AdMob)</h3>
+<p>Рекламу показывает Google с помощью Google Mobile Ads SDK. Чтобы показывать рекламу (в том числе персонализированную —
+подобранную по вашим интересам), считать показы и защищаться от мошенничества, этот SDK передаёт в Google: IP-адрес устройства (по нему можно примерно определить местоположение),
+рекламный идентификатор Android (Advertising ID) и идентификатор набора приложений (App set ID), сведения о
+взаимодействии с рекламой (запуск приложения, показы, касания, просмотры видео), а также технические сведения о
+работе приложения и SDK. Данные передаются в зашифрованном виде (TLS). Мы сами эти данные не получаем и не храним.</p>
+<ul>
+<li><b>Вне ЕЭЗ, Великобритании и Швейцарии</b> окно согласия не показывается, и реклама может быть персонализированной:
+Google подбирает её с помощью рекламного идентификатора Android.</li>
+<li><b>ЕЭЗ, Великобритания, Швейцария.</b> Перед первым показом рекламы Google показывает окно согласия
+(Google User Messaging Platform). Персонализированная реклама показывается только с вашего согласия; без него — реклама
+без персонализации или с ограничениями. Изменить выбор можно в любой момент: Настройки → «Настройки рекламы».</li>
+<li><b>Как отказаться от персонализации (в любой стране).</b> Сбросьте или удалите рекламный идентификатор в настройках Android:
+Настройки → Google → Реклама (на некоторых телефонах — Настройки → Конфиденциальность → Реклама). После удаления он не
+передаётся, и Google не подбирает рекламу по нему; на старых версиях Android там же есть переключатель «Отключить
+персонализацию рекламы».</li>
+<li><b>Возраст.</b> Игра не предназначена для детей; для рекламы установлено ограничение по содержанию «PG» (без
+материалов для взрослых).</li>
+</ul>
+<p>Как Google использует данные из приложений, где работают его сервисы:
+<a href="https://policies.google.com/technologies/partner-sites">policies.google.com/technologies/partner-sites</a>.
+Рекламные настройки вашего Google-аккаунта: <a href="https://myadcenter.google.com/">myadcenter.google.com</a>.</p>
+
 <h3>Сервисы Google</h3>
 <ul>
+<li><b>Google Mobile Ads SDK и Google User Messaging Platform</b> — показ рекламы и окно согласия (см. «Реклама»).</li>
 <li><b>Google Play Billing</b> — покупки внутри игры. Оплату, платёжные данные и возвраты обрабатывает Google; игра
 получает от Google Play только сведения о том, какие наборы куплены, чтобы открыть их. Обработку данных Google описывает
 <a href="https://policies.google.com/privacy">Политика конфиденциальности Google</a>.</li>
@@ -52,17 +80,19 @@ if (!location.hash && !/^(ru|uk|be)/i.test(navigator.language || '')) location.h
 <a href="https://developers.google.com/ml-kit/terms">условия ML Kit</a> и
 <a href="https://developers.google.com/ml-kit/android-data-disclosure">раскрытие данных ML Kit</a>.</li>
 </ul>
-<p>Разрешение на доступ в интернет в установочном файле появляется из-за этих библиотек Google; сама игра сетью
-не пользуется.</p>
+<p>Доступ в интернет нужен рекламе и этим библиотекам Google; сама игра на свои серверы ничего не отправляет
+(своих серверов у нас нет).</p>
 
 <h3>Дети</h3>
 <p>Игра рассчитана на возраст 13+ и не предназначена для детей младше 13 лет. Мы сознательно не собираем
-данные детей — и вообще ничьи.</p>
+данные детей — и вообще ничьи. Реклама в игре ограничена содержанием уровня «PG».</p>
 
 <h3>Ваши права</h3>
 <p>Поскольку мы не получаем ваших данных, нам нечего выдавать или удалять на своей стороне. Данные на устройстве вы
-удаляете сами (см. выше). По вопросам о данных, которые обрабатывает Google, обращайтесь в Google. По любым вопросам
-об игре пишите на <a href="mailto:SUPPORT_EMAIL">SUPPORT_EMAIL</a>.</p>
+удаляете сами (см. выше). Согласие на персонализированную рекламу (ЕЭЗ, Великобритания, Швейцария) можно отозвать в
+«Настройках рекламы»; везде можно сбросить или удалить рекламный идентификатор в настройках Android. По вопросам о
+данных, которые обрабатывает Google (в том числе для рекламы), обращайтесь в Google. По любым вопросам
+об игре пишите на <a href="mailto:toozik.pes@gmail.com">toozik.pes@gmail.com</a>.</p>
 
 <h3>Изменения</h3>
 <p>Если политика изменится, новая версия появится на этой странице с новой датой.</p>
@@ -71,12 +101,16 @@ if (!location.hash && !/^(ru|uk|be)/i.test(navigator.language || '')) location.h
 <section id="en">
 <p class="lang">English</p>
 <h2>Privacy Policy</h2>
-<p>Effective 12 November 2026. “Smash &amp; Squash” (the “game”) is published by the independent developer Jossmaniak
-(“we”). Contact: <a href="mailto:SUPPORT_EMAIL">SUPPORT_EMAIL</a>.</p>
+<p>Effective 12 November 2026, updated 14 November 2026 (Google AdMob ads, including personalised ads). “Smash &amp; Squash” (the “game”) is published by the independent developer Jossmaniak
+(“we”). Contact: <a href="mailto:toozik.pes@gmail.com">toozik.pes@gmail.com</a>.</p>
 
 <h3>In short</h3>
 <ul>
-<li>The game has no accounts, no ads and no analytics. We run no servers and the game sends nothing to us.</li>
+<li>The game has no accounts and no analytics. We run no servers and the game sends nothing to us.</li>
+<li>The game shows Google AdMob ads: an ad between levels (at most after every third level, never in the first
+10 minutes of play) and videos you choose to watch — for coins or to double a level's reward. The “No ads” purchase
+removes the ads between levels for good. Ads may be personalised; in the EEA, the UK and Switzerland only with your
+consent.</li>
 <li>Your progress, settings, pet and custom skins stay on your device.</li>
 <li>Purchases are handled by Google Play. Cutting figures out of photos runs on the device with Google ML Kit.</li>
 </ul>
@@ -91,8 +125,29 @@ when you uninstall the game or tap “Erase progress on this device” (Settings
 the image you choose and does not ask for access to your gallery. Google ML Kit (Subject Segmentation) finds the figures
 on the device itself; the photo is not uploaded anywhere. The cut-out parts are saved in the game's private folder.</p>
 
+<h3>Ads (Google AdMob)</h3>
+<p>Ads are served by Google through the Google Mobile Ads SDK. To show ads (including personalised ads, chosen to match
+your interests), to measure them and to prevent fraud, the SDK sends to Google: the device's IP address (which may be used to estimate its general location), the Android advertising ID and
+the app set ID, your interactions with ads (app launch, impressions, taps, video views), and technical information about
+how the app and the SDK perform. The data is encrypted in transit (TLS). We do not receive or store it ourselves.</p>
+<ul>
+<li><b>Outside the EEA, the UK and Switzerland</b> no consent form is shown, and ads may be personalised: Google
+chooses them using the Android advertising ID.</li>
+<li><b>EEA, UK, Switzerland.</b> Before the first ad, Google shows a consent form (Google User Messaging Platform).
+Personalised ads are shown only with your consent; without it, ads are non-personalised or limited. You can change your
+choice at any time: Settings → “Ad privacy options”.</li>
+<li><b>Opting out (any country).</b> Reset or delete the advertising ID in Android settings: Settings → Google → Ads (on some
+phones Settings → Privacy → Ads). Once deleted it is not sent, and Google does not choose ads by it; older Android
+versions have an “Opt out of Ads Personalization” switch in the same place.</li>
+<li><b>Age:</b> the game is not directed at children; ads are limited to content rated “PG” (no mature content).</li>
+</ul>
+<p>How Google uses information from apps that use its services:
+<a href="https://policies.google.com/technologies/partner-sites">policies.google.com/technologies/partner-sites</a>.
+Ad settings of your Google account: <a href="https://myadcenter.google.com/">myadcenter.google.com</a>.</p>
+
 <h3>Google services</h3>
 <ul>
+<li><b>Google Mobile Ads SDK and Google User Messaging Platform</b> — ads and the consent form (see “Ads”).</li>
 <li><b>Google Play Billing</b> — in-app purchases. Google handles the payment, payment details and refunds; the game only
 receives from Google Play which packs you own, so it can unlock them. See the
 <a href="https://policies.google.com/privacy">Google Privacy Policy</a>.</li>
@@ -103,17 +158,19 @@ identifiers. Images are not sent. See the
 <a href="https://developers.google.com/ml-kit/terms">ML Kit terms</a> and the
 <a href="https://developers.google.com/ml-kit/android-data-disclosure">ML Kit data disclosure</a>.</li>
 </ul>
-<p>The internet permission in the app package comes from these Google libraries; the game itself does not use the
-network.</p>
+<p>Internet access is used by the ads and these Google libraries; the game itself sends nothing to any server of ours
+(we have none).</p>
 
 <h3>Children</h3>
 <p>The game is rated for ages 13+ and is not directed at children under 13. We do not knowingly collect data from
-children — or from anyone.</p>
+children — or from anyone. Ads in the game are limited to content rated “PG”.</p>
 
 <h3>Your rights</h3>
 <p>Since we receive no personal data, there is nothing for us to export or delete on our side. You can delete the data on
-your device yourself (see above). For data processed by Google, contact Google. For anything about the game, write to
-<a href="mailto:SUPPORT_EMAIL">SUPPORT_EMAIL</a>.</p>
+your device yourself (see above). You can withdraw consent to personalised ads in “Ad privacy options” (EEA, UK, Switzerland);
+anywhere, you can reset or delete the advertising ID in Android settings. For data
+processed by Google (including for ads), contact Google. For anything about the game, write to
+<a href="mailto:toozik.pes@gmail.com">toozik.pes@gmail.com</a>.</p>
 
 <h3>Changes</h3>
 <p>If this policy changes, the new version will be published on this page with a new date.</p>
